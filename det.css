@@ -1,0 +1,48 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color:black ;
+    height: 1000px;
+   }
+   h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color:blue ;
+
+}
+.productItem_sec img{
+    width: 100%;
+    height: 100%;
+}
+
+.productItem_sec .product_card{
+    color:black ;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.productitem_desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    color: black;
+    background-color:rgb(151, 151, 173);
+padding: 10px;
+}
+
+.img_sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+gap: 10px;
+padding-bottom: 50px;
+}
+.img_sec img{
+    width: 32%;
+    border: 2px solid rgb(7, 7, 7);
+    height: 200px;
+}
